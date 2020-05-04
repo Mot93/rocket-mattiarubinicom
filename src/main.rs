@@ -4,11 +4,21 @@
 // Extern the rocket crate and all of its macro
 #[macro_use] extern crate rocket;
 
+// Tamplates 
+use rocket_contrib::templates::Template;
+
+#[macro_use] extern crate serde_json;
+
 #[get("/")]
-fn index() -> &'static str {
-    "Hello, world!"
+fn index() -> Template {
+    let context = json!({
+        "title": "Home"
+    });
+    Template::render("index", &context)
 }
 
 fn main() {
-    rocket::ignite().mount("/", routes![index]).launch();
+    rocket::ignite()
+        .attach(Template::fairing())
+        .mount("/", routes![index]).launch();
 }
