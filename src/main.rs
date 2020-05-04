@@ -7,7 +7,11 @@
 // Tamplates 
 use rocket_contrib::templates::Template;
 
+// Serializationj needed for templates
 #[macro_use] extern crate serde_json;
+
+// Serving static files such as css or js
+use rocket_contrib::serve::StaticFiles;
 
 #[get("/")]
 fn index() -> Template {
@@ -18,7 +22,14 @@ fn index() -> Template {
 }
 
 fn main() {
-    rocket::ignite()
+    // Creating the rocket
+    let spacex = rocket::ignite()
+        // templates
         .attach(Template::fairing())
-        .mount("/", routes![index]).launch();
+        // static files (css, js, images, etc)
+        .mount("/", StaticFiles::from("static"))
+        // routes
+        .mount("/", routes![index]);
+    // Starting the webserver
+    spacex.launch();
 }
