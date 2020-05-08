@@ -1,0 +1,16 @@
+#header {
+    --header-height: var(--header-footer-height);
+    --header-padding: 8px;
+    --header-background: var(--header-footer-background-color);
+}
+
+header {
+    height: var(--header-height);
+    box-sizing: border-box;
+    background-color: var(--header-background);
+}
+
+.header_common {
+    height: 100%;
+}
+

@@ -1,0 +1,14 @@
+* {
+    /* Whole document style*/
+    margin:0;
+    padding:0;
+}
+
+#html {
+    --header-footer-background-color: #343deb;
+    --header-footer-height: 56px;
+}
+
+html {
+    min-height: 100%;
+}

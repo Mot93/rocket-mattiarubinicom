@@ -1,0 +1,10 @@
+#footer {
+    --footer-height: var(--header-footer-height);
+    --footer-color: var(--header-footer-background-color);
+}
+
+footer {
+    height: var(--footer-height);
+    box-sizing: border-box;
+    background-color: var(--footer-color);
+}

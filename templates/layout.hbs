@@ -1,15 +1,39 @@
 <!doctype html>
-<html>
+<html id="html" class="html_global">
+
+
+
+  <!-- HEAD -->
   <head>
     <title>{{title}}</title>
+    <!-- META -->
     <meta charset="UTF-8">
     <meta name="author" content="Mattia Rubini">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <!-- STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/common/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/common/header.css">
+    <link rel="stylesheet" type="text/css" href="css/common/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/common/main.css">
+    {{#each styles}}
+      <link rel="stylesheet" type="text/css" href="{{this}}">
+    {{/each}}
+    <!-- SCRIPT -->
+    <script src="js/layout.js"></script>
+    {{#each scripts}}
+      <script src="{{this}}"></script>
+    {{/each}}
   </head>
-  <body>
-    <header>{{> header}}</header>
-    <main>{{~> main}}</main>
-    <footer>{{> footer}}</footer>
+
+
+
+  <!-- BODY -->
+  <body id="body" onload="enlargeMain();">
+    <header id ="header">{{> header}}</header>
+    <main id ="main">{{~> main}}</main>
+    <footer id="footer">{{> footer}}</footer>
   </body>
+
+
+
 </html>
