@@ -33,3 +33,8 @@ function enlargeMain() {
         document.getElementById("main").style.height = main_height+"px";
     }
 }
+
+// Change theme from light to dark and viceversa
+function switchTheme() {
+
+}

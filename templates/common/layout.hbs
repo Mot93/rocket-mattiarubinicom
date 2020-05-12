@@ -1,5 +1,5 @@
 <!doctype html>
-<html id="html" class="html_global">
+<html id="html" class="light_theme">
 
 
 
@@ -11,6 +11,7 @@
     <meta name="author" content="Mattia Rubini">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- STYLE -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/common/layout.css">
     <link rel="stylesheet" type="text/css" href="css/common/header.css">
     <link rel="stylesheet" type="text/css" href="css/common/footer.css">
@@ -29,9 +30,9 @@
 
   <!-- BODY -->
   <body id="body" onload="enlargeMain();">
-    <header id ="header">{{> header}}</header>
+    <header id ="header">{{> common/header}}</header>
     <main id ="main">{{~> main}}</main>
-    <footer id="footer">{{> footer}}</footer>
+    <footer id="footer">{{> common/footer}}</footer>
   </body>
 
 

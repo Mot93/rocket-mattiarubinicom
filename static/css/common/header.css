@@ -14,3 +14,15 @@ header {
     height: 100%;
 }
 
+#header_nav{
+    display: inline-block;
+    padding: 12px;
+}
+
+/* 3 button menu */
+#menu_button > div {
+    width: 30px;
+    height: 4px;
+    background-color: var(--content-color); 
+    margin-top: 3px;
+}

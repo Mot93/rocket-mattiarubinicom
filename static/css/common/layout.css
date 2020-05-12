@@ -4,10 +4,15 @@
     padding:0;
 }
 
+.light_theme {
+    --content-color: #DEF2F1;
+    --background-color: #2B7A78 !important;
+}
+
 #html {
-    --header-footer-background-color: transparent;
+    --header-footer-background-color: var(--background-color);
     --header-footer-height: 56px;
-    background-color: #0B0C10;
+    color: var(--content-color);
 }
 
 html {
