@@ -36,5 +36,13 @@ function enlargeMain() {
 
 // Change theme from light to dark and viceversa
 function switchTheme() {
-
+    var html = document.getElementById("html")
+    //console.log("theme = "+html.className)
+    if (html.className == "theme_light") {
+        //console.log("Setting dark");
+        html.className = "theme_dark";
+    } else {
+        //console.log("Setting light");
+        html.className = "theme_light";
+    }
 }

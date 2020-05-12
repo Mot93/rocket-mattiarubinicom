@@ -6,23 +6,39 @@
 
 header {
     height: var(--header-height);
+    width: 100%;
     box-sizing: border-box;
+    background-color: var(--header-background);
+    --header-padding: 8px;
+    padding: var(--header-padding);
+}
+
+#header_nav {
+    box-sizing: content-box;
+    height: 40px;
+    display: inline-block;
+}
+
+
+
+#menu_button {
+    box-sizing: content-box;
+    padding: 0%;
+    border: 0px;
     background-color: var(--header-background);
 }
 
-.header_common {
-    height: 100%;
+#menu_icon {
+    height: 40px;
+    width: 40px;
+    fill: var(--content-color);
 }
 
-#header_nav{
-    display: inline-block;
-    padding: 12px;
-}
-
-/* 3 button menu */
-#menu_button > div {
-    width: 30px;
-    height: 4px;
-    background-color: var(--content-color); 
-    margin-top: 3px;
+#theme_button {
+    height: 40px;
+    width: 40px;
+    padding: 0px;
+    position: relative;
+    float: right;
+    fill: var(--content-color);
 }
