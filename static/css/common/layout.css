@@ -5,8 +5,9 @@
 }
 
 #html {
-    --header-footer-background-color: #343deb;
+    --header-footer-background-color: transparent;
     --header-footer-height: 56px;
+    background-color: #0B0C10;
 }
 
 html {
