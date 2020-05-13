@@ -16,10 +16,20 @@ fn internal_error() -> &'static str {
 }
 */
 
+// TODO: italian
 #[catch(404)]
 pub fn not_found(req: &Request) -> Template {
-    let mut min_context = context::MinContext::new(String::from("404"), context::Language::English);
+    // Creating the minimum context
+    let mut min_context = context::Context::new(String::from("404"), context::Language::English);
+    // Adding stylesheet
     min_context.add_stylesheet(String::from("css/pages/errors/404.css"));
+    // Adding page specific context
+    let uri = format!("{}", req.uri());
+    let page_context = serde_json::json!({
+        "uri_not_found" : uri,
+    });
+    min_context.add_page_context(serde_json::json!(page_context));
+    // Giving back the page
     let context = serde_json::json!(min_context);
     Template::render("pages/errors/404", &context)
 }
