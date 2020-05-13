@@ -11,16 +11,19 @@ use rocket_contrib::serve::StaticFiles;
 // Mods
 mod context;
 mod routes;
+mod catchers;
 
 fn main() {
     // Creating the rocket
     let spacex = rocket::ignite()
         // templates
         .attach(Template::fairing())
+        // errors
+        .register(catchers![catchers::not_found])
         // static files (css, js, images, etc)
         .mount("/", StaticFiles::from("static"))
         // routes
-        .mount("/", routes![routes::index]);
+        .mount("/", routes![routes::landing_page]);
     // Starting the webserver
     spacex.launch();
 }

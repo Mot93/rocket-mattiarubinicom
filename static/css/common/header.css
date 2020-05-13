@@ -2,6 +2,7 @@
     --header-height: var(--header-footer-height);
     --header-padding: 8px;
     --header-background: var(--header-footer-background-color);
+    --header-padding: 8px;
 }
 
 header {
@@ -9,7 +10,6 @@ header {
     width: 100%;
     box-sizing: border-box;
     background-color: var(--header-background);
-    --header-padding: 8px;
     padding: var(--header-padding);
 }
 
@@ -18,8 +18,6 @@ header {
     height: 40px;
     display: inline-block;
 }
-
-
 
 #menu_button {
     box-sizing: content-box;
@@ -32,6 +30,19 @@ header {
     height: 40px;
     width: 40px;
     fill: var(--content-color);
+}
+
+#menu_content {
+    background-color: var(--header-background);
+}
+
+#menu_content > a {
+    color: var(--content-color);
+}
+
+#menu_content > a:hover {
+    color: var(--header-background);
+    background-color: var(--content-color);
 }
 
 #theme_button {

@@ -1,0 +1,8 @@
+main > h1, main > p {
+    color: var(--content-color);
+    text-align: center;
+}
+
+main > p {
+    margin-top: 5%;
+}

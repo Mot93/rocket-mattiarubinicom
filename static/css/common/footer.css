@@ -1,10 +1,16 @@
 #footer {
     --footer-height: var(--header-footer-height);
     --footer-color: var(--header-footer-background-color);
+    --footer-padding: 8px;
 }
 
 footer {
     height: var(--footer-height);
     box-sizing: border-box;
     background-color: var(--footer-color);
+    padding: var(--footer-padding);
+}
+
+footer > p {
+    text-align: center;
 }
