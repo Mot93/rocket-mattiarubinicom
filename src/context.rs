@@ -42,12 +42,12 @@ impl Context {
         }
     }
 
-    /// TODO::
+    /// TODO:
     pub fn add_stylesheet(& mut self, stylesheet: String) {
         self.styles.push(stylesheet);
     }
 
-    /// TODO
+    /// TODO:
     pub fn add_page_context(& mut self, context: serde_json::Value) {
         self.page_contex = Some(context);
     }
