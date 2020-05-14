@@ -1,4 +1,4 @@
-FROM rust:1.43
+FROM rust:1.43-buster
 
 RUN apt update &&\ 
     apt upgrade -y
@@ -6,16 +6,23 @@ RUN apt update &&\
 RUN rustup update nightly &&\ 
     rustup default nightly
 
+WORKDIR /usr/src/myappcode
+
+COPY Cargo.toml /usr/src/myappcode/Cargo.toml
+COPY Rocket.toml /usr/src/myappcode/Rocket.toml
+COPY src/ /usr/src/myappcode/src/
+COPY templates/ /usr/src/myappcode/templates/
+COPY static/ /usr/src/myappcode/static/
+
+RUN cargo build --release
+
+FROM debian:buster-slim
+
 WORKDIR /usr/src/myapp
 
-COPY Cargo.toml /usr/src/myapp/code/Cargo.toml
-COPY Rocket.toml /usr/src/myapp/code/Rocket.toml
-COPY src/ /usr/src/myapp/code/src/
-COPY templates/ /usr/src/myapp/code/templates/
-COPY static/ /usr/src/myapp/code/static/
+COPY Rocket.toml Rocket.toml
+COPY --from=0 /usr/src/myappcode/templates/ templates/ 
+COPY --from=0 /usr/src/myappcode/static/ static/ 
+COPY --from=0 /usr/src/myappcode/target/release/mattiarubinicom mattiarubinicom
 
-WORKDIR /usr/src/myapp/code
-
-RUN cargo build
-
-CMD ["cargo", "run", "--manifest-path=/usr/src/myapp/code/Cargo.toml"]
+CMD ["/usr/src/myappcode/target/release/mattiarubinicom"]
