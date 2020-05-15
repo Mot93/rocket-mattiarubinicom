@@ -16,6 +16,9 @@ RUN cargo build --release
 
 FROM debian:buster-slim
 
+RUN apt update &&\ 
+    apt upgrade -y
+
 WORKDIR /usr/src/myapp
 
 COPY Rocket.toml Rocket.toml
