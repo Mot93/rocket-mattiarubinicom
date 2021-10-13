@@ -1,17 +1,13 @@
-FROM rust:1.43-alpine as build
+FROM rust:1.55-alpine3.13 as build
 
 WORKDIR /usr/src/myappcode
 
 COPY Cargo.toml Cargo.toml
 COPY src/ src/
-COPY templates/ templates/
+COPY Rocket.toml Rocket.toml
 
-RUN apk add libc-dev &&\
-    rustup update nightly &&\ 
-    rustup default nightly &&\
-    apk update &&\ 
-    apk upgrade &&\
-    cargo build --release
+RUN apk add libc-dev \
+&& cargo build --release
 
 FROM alpine
 
@@ -22,8 +18,6 @@ COPY static/ static/
 COPY templates/ templates/
 COPY --from=build /usr/src/myappcode/target/release/mattiarubinicom mattiarubinicom
 
-RUN apk update &&\ 
-    apk upgrade &&\
-    chmod 777 mattiarubinicom
+RUN chmod u+x mattiarubinicom
 
 CMD ["/usr/src/myapp/mattiarubinicom"]
