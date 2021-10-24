@@ -11,13 +11,17 @@ I had a lot of fun developing everything with containers
 
 ## Using podman-compose
 
-    podmna-compose up
+    podman-compose up
 
     podman-compose down
 
 ## Going generating a yaml for kubernetes
 
-    podman generate kube <missing>
+    podman-compose up
+
+    podman pod ps
+
+    podman generate kube -s rocket_mattiarubinicom > mattiarubinicom-kube.yaml
 
 # Notes
 
