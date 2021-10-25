@@ -5,11 +5,13 @@ I had a lot of fun developing everything with containers
 
 ## How to build with podman
 
-    podman build . --tag mattiarubinicom
+    podman build mattiarubinicom.Dockerfile --tag mattiarubinicom
 
     podman run --publish 8080:80/tcp mattiarubinicom 
 
 ## Using podman-compose
+
+    podman-compose build
 
     podman-compose up
 
@@ -22,6 +24,8 @@ I had a lot of fun developing everything with containers
     podman pod ps
 
     podman generate kube -s rocket_mattiarubinicom > mattiarubinicom-kube.yaml
+
+    kubectl apply -f mattiarubinicom-kube.yaml
 
 # Notes
 

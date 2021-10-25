@@ -1,9 +1,16 @@
 version: "3.9"
 services:
-  webapp:
-    container_name: mattiarubinicom
+  proxy:
+    container_name: rproxy
     build:
       context: ./
-      dockerfile: Dockerfile
+      dockerfile: rproxy.Dockerfile
     ports:
       - 8080:80
+  mattiarubinicom:
+    container_name: homepage
+    build:
+      context: ./
+      dockerfile: mattiarubinicom.Dockerfile
+    #ports:
+    #  - 8080:80

@@ -4,7 +4,6 @@ WORKDIR /usr/src/myappcode
 
 COPY Cargo.toml Cargo.toml
 COPY src/ src/
-COPY Rocket.toml Rocket.toml
 
 RUN apk add libc-dev \
 && cargo build --release
