@@ -4,9 +4,9 @@ My personal website created in [rust](https://www.rust-lang.org/) with [rocket](
 I had a lot of fun developing with container technology.
 
 ## How to build with podman
-    podman build mattiarubinicom.Dockerfile --tag mattiarubinicom
+    podman build -f container/mattiarubinicom.Dockerfile --tag mattiarubinicom .
 
-    podman run --publish 8080:80/tcp mattiarubinicom 
+    podman run --publish 8080:80/tcp mattiarubinicom
 
 ## Using podman-compose
     podman-compose build
@@ -27,7 +27,7 @@ To bind the containers on a ***port lower `1024`*** you need to run the previous
 
 Once you created a pod in podman, you can generate a kubernetes config file
 
-    podman generate kube -s rocket-mattiarubinicom > mattiarubinicom-kube-podman.yaml
+    podman generate kube -s rocket-mattiarubinicom > container/mattiarubinicom-kube-podman.yaml
 
 Rembember to take down the podman-compose pod
 
@@ -37,7 +37,7 @@ Rembember to take down the podman-compose pod
 ## Kompose
 [Kompose](https://github.com/kubernetes/kompose) is a great tool to turn your [docker-compose.yaml](https://docs.docker.com/compose/compose-file/) into a kubernetes configuration.
 
-    kompose convert -o mattiarubinicom-kube-kompose.yaml 
+    kompose convert -o container/mattiarubinicom-kube-kompose.yaml 
 
 
 # K8s testing

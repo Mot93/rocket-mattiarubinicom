@@ -4,13 +4,11 @@ services:
     container_name: rproxy
     build:
       context: ./
-      dockerfile: rproxy.Dockerfile
+      dockerfile: container/rproxy.Dockerfile
     ports:
       - 8080:80
   mattiarubinicom:
     container_name: homepage
     build:
       context: ./
-      dockerfile: mattiarubinicom.Dockerfile
-    #ports:
-    #  - 8080:80
+      dockerfile: container/mattiarubinicom.Dockerfile
