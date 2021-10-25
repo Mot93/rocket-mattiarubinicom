@@ -7,7 +7,7 @@ services:
       dockerfile: container/rproxy.Dockerfile
     ports:
       - 8080:80
-  mattiarubinicom:
+  homepage:
     container_name: homepage
     build:
       context: ./
