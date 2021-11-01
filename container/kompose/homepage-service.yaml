@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: mattiarubinicom
+  annotations:
+    kompose.cmd: kompose convert -o container/kompose/
+    kompose.version: 1.24.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: homepage
+  name: homepage
+spec:
+  ports:
+    - name: "8080"
+      port: 8080
+      targetPort: 80
+  selector:
+    io.kompose.service: homepage
+status:
+  loadBalancer: {}

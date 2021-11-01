@@ -1,14 +1,10 @@
 version: "3"
 services:
-  proxy:
-    container_name: rproxy
-    build:
-      context: ./
-      dockerfile: container/rproxy.Dockerfile
-    ports:
-      - 8080:80
   homepage:
     container_name: homepage
     build:
       context: ./
       dockerfile: container/mattiarubinicom.Dockerfile
+    ports:
+      - 8080:80
+# 051 4111 117

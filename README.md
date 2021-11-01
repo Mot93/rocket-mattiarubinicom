@@ -37,7 +37,7 @@ Rembember to take down the podman-compose pod
 ## Kompose
 [Kompose](https://github.com/kubernetes/kompose) is a great tool to turn your [docker-compose.yaml](https://docs.docker.com/compose/compose-file/) into a kubernetes configuration.
 
-    kompose convert -o container/mattiarubinicom-kube-kompose.yaml 
+    kompose convert -o container/kompose/ 
 
 
 # K8s testing
