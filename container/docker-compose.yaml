@@ -1,10 +1,9 @@
 version: "3"
 services:
-  homepage:
-    container_name: homepage
+  mattiarubinicom:
+    container_name: mattiarubinicom
     build:
       context: ./../
       dockerfile: container/mattiarubinicom.Dockerfile
     ports:
       - 8080:80
-# 051 4111 117

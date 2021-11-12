@@ -1,0 +1,12 @@
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/debug/deps/inotify-d46d0a1f6daabf06.rmeta: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/events.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/fd_guard.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/inotify.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/util.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/watches.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/debug/deps/libinotify-d46d0a1f6daabf06.rlib: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/events.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/fd_guard.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/inotify.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/util.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/watches.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/debug/deps/inotify-d46d0a1f6daabf06.d: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/events.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/fd_guard.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/inotify.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/util.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/watches.rs
+
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/lib.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/events.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/fd_guard.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/inotify.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/util.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/inotify-0.7.1/src/watches.rs:

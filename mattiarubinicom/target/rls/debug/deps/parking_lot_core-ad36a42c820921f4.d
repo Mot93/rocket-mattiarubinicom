@@ -1,0 +1,11 @@
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/parking_lot_core-ad36a42c820921f4.rmeta: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/parking_lot.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/spinwait.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/mod.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/util.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/word_lock.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/linux.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/parking_lot_core-ad36a42c820921f4.d: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/parking_lot.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/spinwait.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/mod.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/util.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/word_lock.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/linux.rs
+
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/lib.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/parking_lot.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/spinwait.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/mod.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/util.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/word_lock.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.8.5/src/thread_parker/linux.rs:

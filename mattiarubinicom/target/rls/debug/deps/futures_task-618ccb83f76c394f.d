@@ -1,0 +1,11 @@
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/futures_task-618ccb83f76c394f.rmeta: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/spawn.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/arc_wake.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/waker.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/waker_ref.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/future_obj.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/noop_waker.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/futures_task-618ccb83f76c394f.d: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/spawn.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/arc_wake.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/waker.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/waker_ref.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/future_obj.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/noop_waker.rs
+
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/lib.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/spawn.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/arc_wake.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/waker.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/waker_ref.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/future_obj.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-task-0.3.17/src/noop_waker.rs:

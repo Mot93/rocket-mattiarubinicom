@@ -1,0 +1,11 @@
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/parse_zoneinfo-24e6ec8c6f0d2bde.rmeta: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/line.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/structure.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/table.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/transitions.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/libparse_zoneinfo-24e6ec8c6f0d2bde.rlib: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/line.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/structure.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/table.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/transitions.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/parse_zoneinfo-24e6ec8c6f0d2bde.d: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/line.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/structure.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/table.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/transitions.rs
+
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/lib.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/line.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/structure.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/table.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/parse-zoneinfo-0.3.0/src/transitions.rs:

@@ -7,16 +7,16 @@ I had a lot of fun developing with container technology.
 All the following instruction can be performed once inside the `container/` folder
 
 ## How to build with podman
-    podman build -f container/mattiarubinicom.Dockerfile --tag mattiarubinicom .
+    podman build -f mattiarubinicom.Dockerfile --tag mattiarubinicom ./../
 
     podman run --publish 8080:80/tcp mattiarubinicom
 
 ## Using podman-compose
-    podman-compose build
+    podman-compose -p pod-mattiarubinicom build
 
-    podman-compose up
+    podman-compose -p pod-mattiarubinicom up -d
 
-    podman-compose down
+    podman-compose -p pod-mattiarubinicom down
 
 ## **Podman notes**
 To bind the containers on a ***port lower `1024`*** you need to run the previous command as root.
@@ -26,21 +26,21 @@ To bind the containers on a ***port lower `1024`*** you need to run the previous
 ## Using podman-compose
 [podman-compose](https://github.com/containers/podman-compose) is a great projects that turn your [docker-compose.yaml](https://docs.docker.com/compose/compose-file/) into a pod ready to be used on k8s.
 
-    podman-compose up -d --build
+    podman-compose -p pod-mattiarubinicom up -d --build 
 
 Once you created a pod in podman, you can generate a kubernetes config file
 
-    podman generate kube -s rocket-mattiarubinicom > container/mattiarubinicom-kube-podman.yaml
+    podman generate kube -s pod-mattiarubinicom > podman-k8s/kube-mattiarubinicom.yaml
 
 Rembember to take down the podman-compose pod
 
-    podman-compose down
+    podman-compose -p pod-mattiarubinicom down
 
 
 ## Kompose
 [Kompose](https://github.com/kubernetes/kompose) is a great tool to turn your [docker-compose.yaml](https://docs.docker.com/compose/compose-file/) into a kubernetes configuration.
 
-    kompose convert -o container/kompose/ 
+    kompose convert -o kompose/ 
 
 
 # K8s testing

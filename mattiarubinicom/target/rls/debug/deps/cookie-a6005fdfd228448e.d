@@ -1,0 +1,12 @@
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/cookie-a6005fdfd228448e.rmeta: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/builder.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/parse.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/jar.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/delta.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/draft.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/libcookie-a6005fdfd228448e.rlib: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/builder.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/parse.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/jar.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/delta.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/draft.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/cookie-a6005fdfd228448e.d: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/builder.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/parse.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/jar.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/delta.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/draft.rs
+
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/lib.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/builder.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/parse.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/jar.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/delta.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/cookie-0.11.4/src/draft.rs:

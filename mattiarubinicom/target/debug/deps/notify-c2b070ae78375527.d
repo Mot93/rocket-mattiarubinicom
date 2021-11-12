@@ -1,0 +1,12 @@
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/debug/deps/notify-c2b070ae78375527.rmeta: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/inotify.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/null.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/poll.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/debounce/mod.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/debounce/timer.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/debug/deps/libnotify-c2b070ae78375527.rlib: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/inotify.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/null.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/poll.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/debounce/mod.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/debounce/timer.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/debug/deps/notify-c2b070ae78375527.d: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/inotify.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/null.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/poll.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/debounce/mod.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/debounce/timer.rs
+
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/lib.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/inotify.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/null.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/poll.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/debounce/mod.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/notify-4.0.17/src/debounce/timer.rs:

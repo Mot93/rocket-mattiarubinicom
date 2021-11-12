@@ -1,0 +1,15 @@
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/bstr-8fe80cb0073f4b51.rmeta: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ascii.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/bstr.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/bstring.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/byteset/mod.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/byteset/scalar.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ext_slice.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ext_vec.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/impls.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/io.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/utf8.rs
+
+/home/cactus/coding/rust/rocket_mattiarubinicom/target/rls/debug/deps/bstr-8fe80cb0073f4b51.d: /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/lib.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ascii.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/bstr.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/bstring.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/byteset/mod.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/byteset/scalar.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ext_slice.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ext_vec.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/impls.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/io.rs /home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/utf8.rs
+
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/lib.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ascii.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/bstr.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/bstring.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/byteset/mod.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/byteset/scalar.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ext_slice.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/ext_vec.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/impls.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/io.rs:
+/home/cactus/.cargo/registry/src/github.com-1ecc6299db9ec823/bstr-0.2.16/src/utf8.rs:
