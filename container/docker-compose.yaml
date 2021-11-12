@@ -3,7 +3,7 @@ services:
   homepage:
     container_name: homepage
     build:
-      context: ./
+      context: ./../
       dockerfile: container/mattiarubinicom.Dockerfile
     ports:
       - 8080:80

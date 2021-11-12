@@ -1,4 +1,4 @@
-# rocket_mattiarubinicom
+# rocket-mattiarubinicom
 My personal website created in [rust](https://www.rust-lang.org/) with [rocket](https://rocket.rs/).
 
 I had a lot of fun developing with container technology.
