@@ -3,6 +3,9 @@ My personal website created in [rust](https://www.rust-lang.org/) with [rocket](
 
 I had a lot of fun developing with container technology.
 
+# Container
+All the following instruction can be performed once inside the `container/` folder
+
 ## How to build with podman
     podman build -f container/mattiarubinicom.Dockerfile --tag mattiarubinicom .
 
