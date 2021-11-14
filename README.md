@@ -3,10 +3,12 @@ My personal website created in [rust](https://www.rust-lang.org/) with [rocket](
 
 I had a lot of fun developing with container technology.
 
-# Container
+# How to build and run the image 
 All the following instruction can be performed once inside the `container/` folder
+    
+    cd container/
 
-## How to build with `podman`
+## Using `podman`
 
 1. Build the image usign the `Dockerfile`:
 
