@@ -1,12 +1,12 @@
+use std::collections::HashMap;
 use rocket::fs::FileServer;
 use rocket_dyn_templates::Template;
-use serde_json::json;
 
 #[macro_use] extern crate rocket;
 
 #[get("/")]
 fn index() -> Template {
-    let context = json!({"name": "foo"});
+    let context: HashMap<String, String> = HashMap::new();
     Template::render("pages/landing_page", context)
 }
 
