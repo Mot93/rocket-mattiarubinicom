@@ -57,6 +57,33 @@ Just replace `podman-compose` with `docker-compose`.
 
 **NOTE**: unlike `docker-compose` all container are place in a virtual network and can listen on the same port.
 
+# Uploading to a container registry
+
+## Using `podman` 
+
+1. Download the jenkins war file of the version you would like to use. 
+    
+    If the latest version is needed, just launch the `download_latest.sh` file.
+
+2. Build the image usign the `Dockerfile`:
+
+        podman build . --tag <username>/mattiarubinicom:<tagname>
+
+3. Login to your account
+
+        podman login <registry>
+
+    For example
+
+        podman login index.docker.io
+
+4. Push the image
+
+        podman push <username>/mattiarubinicom:<tagname>
+
+## Using `docker`
+If you prefer to use docker, simply substitute `podman` with `docker`.
+
 # Moving to K8s
 
 ## Using `podman-compose`
