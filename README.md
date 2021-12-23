@@ -67,7 +67,7 @@ Just replace `podman-compose` with `docker-compose`.
 
 2. Build the image usign the `Dockerfile`:
 
-        podman build . --tag <username>/mattiarubinicom:<tagname>
+        podman build . -f Dockerfile --tag <username>/mattiarubinicom:<tagname>
 
 3. Login to your account
 
