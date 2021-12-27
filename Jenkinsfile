@@ -15,7 +15,7 @@ pipeline {
 
                 script {
 
-                    def mattiarubinicom_container = docker.build("${BUILD_TAG}", '-f ./container/mattiarubinicom.Dockerfile')
+                    def mattiarubinicom_container = docker.build("${BUILD_TAG}", '-f ./container/mattiarubinicom.Dockerfile .')
 
                 }
                 
