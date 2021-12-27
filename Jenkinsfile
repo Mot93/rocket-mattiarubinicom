@@ -15,7 +15,7 @@ pipeline {
 
                 script {
 
-                    def mattiarubinicom_container = docker.build("${BUILD_TAG}", '-f ./container/mattiarubinicom.Dockerfile .')
+                    def container = docker.build("${BUILD_TAG}", '-f ./container/mattiarubinicom.Dockerfile .')
 
                 }
                 
@@ -49,13 +49,13 @@ pipeline {
 
                     /*docker.withRegistry('https://index.docker.io/v1/', 'container-registry') {
 
-                        def mattiarubinicom_container = docker.image("${BUILD_TAG}")
-                        mattiarubinicom_container.push()
+                        def container = docker.image("${BUILD_TAG}")
+                        container.push()
 
                     }*/
 
-                    def mattiarubinicom_container = docker.image("${BUILD_TAG}")
-                    mattiarubinicom_container.push()
+                    def container = docker.image("${BUILD_TAG}")
+                    container.push()
 
                 }
                 //sh 'docker login -u ${CONTAINER_REGISTRY_USR} -p ${CONTAINER_REGISTRY_PSW} index.docker.io && docker push $BUILD_TAG'
