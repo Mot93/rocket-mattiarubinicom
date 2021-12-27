@@ -12,7 +12,7 @@ All the following instruction can be performed once inside the `container/` fold
 
 1. Build the image usign the `Dockerfile`:
 
-        podman build -f mattiarubinicom.Dockerfile --tag mattiarubinicom ./../
+        podman build -f ./container/mattiarubinicom.Dockerfile --tag mattiarubinicom .
 
 2. Start the container
 
