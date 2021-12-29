@@ -105,6 +105,18 @@ Rembember to take down the podman-compose pod
 
     kompose convert -o kompose/ 
 
+## Testing the K8s config corectness
+To test the generate config file, use [kubeval](https://www.kubeval.com).
+
+***`podman-compose`***
+
+    kubeval container/podman-k8s/kube-mattiarubinicom.yaml
+
+***`kompose`***
+
+    kubeval container/kompose/mattiarubinicom-deployment.yaml
+    kubeval container/kompose/mattiarubinicom-service.yaml
+
 
 # K8s testing
 There are serveral way to test the kubernetes configurations
