@@ -152,3 +152,14 @@ In this project, you'll find a `Jenkinsfile` that can be used to automate the co
 
 ## Note 
 When using Jenkins, Docker is a better alternative than podman because there is a better integration
+
+License
+-------
+
+Pending
+
+Author Information
+------------------
+
+If you like my work and want to know more, visit my website:
+[www.mattiarubini.com](https://www.mattiarubini.com)
