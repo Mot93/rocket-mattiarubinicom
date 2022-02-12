@@ -156,7 +156,7 @@ When using Jenkins, Docker is a better alternative than podman because there is 
 License
 -------
 
-Pending
+MIT
 
 Author Information
 ------------------
